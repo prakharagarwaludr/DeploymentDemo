@@ -78,7 +78,7 @@ const cities = ["Kampala", "Nairobi", "Lagos"];
   return (
     <div>
       <div className="container home">
-        <h4 className="center">Home Page Updated By Prakhar</h4>
+        <h4 className="center">Application Home Page </h4>
         {postList}
       </div>
     </div>
