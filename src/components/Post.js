@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { deletePostAction } from "../actions/postActions";
 
 const Post = (props) => {
+  debugger;  
   const handleClickToDeletePost = () => {
     props.deletePost(props.post.id);
     props.history.push("/");
@@ -28,7 +29,7 @@ const Post = (props) => {
 
 const mapStateToProps = (state, ownProps) => {
   let id = ownProps.match.params.post_id;
-
+  debugger;
   return {
     post: state.posts.find((post) => post.id === id),
   };

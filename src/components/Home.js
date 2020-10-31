@@ -26,21 +26,21 @@ const Home = ({ posts }) => {
   // },[]);
 
 
-  useEffect(() => {
-    console.log("USE EFFECT FUNCTION TRIGGERED");
+//   useEffect(() => {
+//     console.log("USE EFFECT FUNCTION TRIGGERED");
     
-    setTimeout(() => {
-       console.log("SET TIME OUT CALLED AFTER 3 SECONDS");
-    }, 1000)
-});
-useLayoutEffect(() => {
-    console.log("USE LAYOUT EFFECT FUNCTION TRIGGERED");
-});
+//     setTimeout(() => {
+//        console.log("SET TIME OUT CALLED AFTER 3 SECONDS");
+//     }, 1000)
+// });
+// useLayoutEffect(() => {
+//     console.log("USE LAYOUT EFFECT FUNCTION TRIGGERED");
+// });
 
    
-const cities = ["Kampala", "Nairobi", "Lagos"];
-   console.log(...cities);
-   console.log(cities);
+// const cities = ["Kampala", "Nairobi", "Lagos"];
+//    console.log(...cities);
+//    console.log(cities);
   
 // function someFn() {   
 //   if (true) {
@@ -76,12 +76,12 @@ const cities = ["Kampala", "Nairobi", "Lagos"];
   );
 
   return (
-    <div>
+    <React.Fragment>
       <div className="container home">
-        <h4 className="center">Home Page </h4>
+        <h4 className="center">Home</h4>
         {postList}
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

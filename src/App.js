@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/create" component={CreatePost} />
             <Route path="/contact" component={Contact} />
             {/* <Route path="/fileupload" component={FileUpload} /> */}
-            <Route path="/:studententry" component={Studententry} />
+            <Route path="/studententry" component={Studententry} />
             <Route path="/toggle" component={ToggleButtonNotEmpty} />
             <Route path="/:post_id" component={Post} />
           </Switch>
