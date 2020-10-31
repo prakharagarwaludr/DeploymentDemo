@@ -81,7 +81,6 @@ const cities = ["Kampala", "Nairobi", "Lagos"];
         <h4 className="center">Home Page Updated By Prakhar</h4>
         {postList}
       </div>
-      {/* <MyLink /> */}
     </div>
   );
 };
