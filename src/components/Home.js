@@ -78,7 +78,7 @@ const Home = ({ posts }) => {
   return (
     <React.Fragment>
       <div className="container home">
-        <h4 className="center">Home</h4>
+        <h4 className="center">Home </h4>
         {postList}
       </div>
     </React.Fragment>
