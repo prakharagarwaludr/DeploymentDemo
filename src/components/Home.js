@@ -78,7 +78,7 @@ const Home = ({ posts }) => {
   return (
     <React.Fragment>
       <div className="container home">
-        <h4 className="center">Application Home </h4>
+        <h4 className="center">Application Home Page by Prakhar Agarwal </h4>
         {postList}
       </div>
     </React.Fragment>
