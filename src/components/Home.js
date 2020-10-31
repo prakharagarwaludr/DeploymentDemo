@@ -7,20 +7,20 @@ import MyLink from "./Link";
 const Home = ({ posts }) => {
 
   // useEffect(() => {
-  //   debugger;
+  //    
   //   console.log("This is a main statement in UseEffect ---> Home.js Component")    
   //   return () => {
-  //   debugger;
+  //    
   //     console.log("This is a return statement in UseEffect ---> Home.js Component")  
   //   };
   // }, []);
   
   
   // useEffect(() => {
-  //   debugger;
+  //    
   //   console.log("This is a  2 main statement in UseEffect ---> Home.js Component")    
   //   return () => {
-  //   debugger;
+  //    
   //     console.log("This is a 2 return statement in UseEffect ---> Home.js Component")  
   //   };
   // },[]);
@@ -37,7 +37,7 @@ useLayoutEffect(() => {
     console.log("USE LAYOUT EFFECT FUNCTION TRIGGERED");
 });
 
-  debugger;
+   
 const cities = ["Kampala", "Nairobi", "Lagos"];
    console.log(...cities);
    console.log(cities);
